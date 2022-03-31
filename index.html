@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span{
+            color: #920898;
+            font-size: 10px;
+
+        }
+       
+        header{
+            background-color: rgb(134, 199, 153);
+            border: 20px outset rgb(243, 237, 237);
+            text-align: center;
+            color: #000;
+            text-align:center;
+
+
+
+
+        }
+
+        body{
+            background-image: url(./screen-0.webp);
+            background-attachment: fixed;
+            background-size: cover;
+
+        }
+
+        input{
+            width: 30%;
+        }
+        
+        footer{
+            background-color: rgb(228, 138, 138);
+            border: 10px outset rgb(233, 245, 233);
+            background-size: cover;
+            text-align: center;
+            bottom: 0;
+            position: fixed;
+            width: 100%;
+            color: aliceblue;
+            position: fixed;
+
+        }
+        .table,tr,td{
+            
+            padding: 10px;
+            border: gold;
+            border: 1px;
+            border: 2px solid #000;
+            border-collapse: collapse;
+            background-color: rgb(100, 100, 31);
+            width: 90%;
+
+        }
+    </style>
+</head>
+
+
+<body>
+    <header>
+     practice website
+    </header>
+    
+    <div>
+        <form>
+        <h1 style="font-size:larger;"> 
+            <b>
+                <strong>
+                    50 Class</strong>
+                </b>
+            </h1>
+            <br>
+        <span><i> Welcome to our website</i></span><br><br>
+        
+
+            <label for="fname"><b><i>First name:</i> </b></label>
+            <input type="name" id="fname" maxlength="30" minlength="2">
+            
+            <br><br>
+
+            <label for="email"><b><strong>Email:</strong></b></label>
+            <input type="email" id="email" placeholder="lior23@walla.com" >
+
+            <br><br>
+
+            <label for="number"><b><i> Grades:</i></b></label>
+            <input type="number" id="number" min="0" max="15">
+
+            <br><br>
+            <button style="color:#c31583;">Save</button>
+        </form>
+    </div>
+   
+    <br>
+    <div>
+        <table class="table">
+            <thead>
+                <th>Full name</th>
+            <th>Date</th>
+            <th>Email</th>
+            </thead>
+            <tr>
+                <td>Salomon avraham</td>
+                <td>31.7.1991</td>
+                <td>salomon12@walla.com</td>
+            </tr>
+            <tr>
+                <td>Abayneh asaye</td>
+                <td>29.12.1995</td>
+                <td>abayneh12@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Daniel malada</td>
+                <td>24.12.1997</td>
+                <td>daniel@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Lior dawit</td>
+                <td>28.03.1997</td>
+                <td>dawit123@walla.co.il</td>
+            </tr>
+            <tr>
+                <td>lior aytegev</td>
+                <td>12.4.1992</td>
+                <td>aytegev1212@sport</td>
+            </tr>
+        </table>
+        <ol  style="color: #0e72f0;">
+            <li>Jacob
+                <ul  style="color:#14181b;">
+                    <li>Fullstack</li>
+                    <li>QA automation</li>
+                    <li>Ti</li>
+                </ul>
+            </li>
+            <li>Salomon
+                <ul style="color:#14181b;">
+                    <li>English</li>
+                    <li>Sport</li>
+                    <li>Math</li>
+                </ul>
+            </li>
+            <li>Gad
+                <ul style="color:#14181b;">
+                    <li>Database</li>
+                    <li>java</li>
+                    <li>c++</li>
+                </ul>
+            </li>
+            <li>Yonatan
+                <ul  style="color:#14181b;">
+                    <li>Python</li>
+                    <li>Node.js</li>
+                    <li>Css</li>
+                </ul>
+            </li>
+            <li>Eldad
+                <ul  style="color:#14181b;">
+                    <li>Qa</li>
+                    <li>Mongo.DB</li>
+                    <li>Dataanalist</li>
+                </ul>
+            </li>
+        </ol>
+
+    </div>
+    <footer>
+        FACEBOOK  INSTEGRAN  TWITTER
+    </footer>
+</body>
+    
+</html>
